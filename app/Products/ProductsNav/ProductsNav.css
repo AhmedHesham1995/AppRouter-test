@@ -1,0 +1,11 @@
+.productsNav{
+    background-color: blueviolet;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.productsNav a{
+    margin: 10px;
+}
