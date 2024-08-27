@@ -5,7 +5,8 @@ export default function Home() {
     <section className="home">
       <h1>Hello from home</h1>
 
-      <button className="btn btn-primary">hello</button>
+      <button className="btn btn-primary">hello</button><br/>
+      <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">hello</button>
 
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
