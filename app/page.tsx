@@ -5,9 +5,27 @@ export default function Home() {
     <section className="home">
       <h1>Hello from home</h1>
 
-      <button className="btn btn-primary">hello</button><br/>
-      <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">hello</button>
+<div className="container mx-auto bg-slate-600">
+  <div className="bg-red-400 w-full h-24">
 
+  </div>
+  <div className="flex">
+  <div className="bg-green-500 w-1/2 h-24">
+hello
+  </div>
+  <div className="bg-blue-400 w-1/2 h-24">
+hello
+  </div>
+  </div>
+  
+
+
+  
+<button className="btn btn-primary">hello</button><br/>
+      <button className="bg-emerald-300 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">hello</button>
+
+</div>
+     
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Navbar</a>
