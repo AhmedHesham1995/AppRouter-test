@@ -25,9 +25,9 @@
 // }
 
 
-import DetailsComponent from '@/app/components/Nav/details/DetailsComponent';
-import '@/app/Products/ProductDetails.css'
+import '@/src/app/[locale]/Products/ProductDetails.css'
 import { Suspense } from 'react';
+import DetailsComponent from '../../components/Nav/details/DetailsComponent';
 export default async function ProductDetails(params:any){
     // console.log(params.params.productId);
     let productId=params.params.productId
@@ -38,6 +38,7 @@ export default async function ProductDetails(params:any){
             <h1>product details</h1>
 
             <Suspense fallback={loading}>
+                {/* <DetailsComponent productId={productId}/> */}
                 <DetailsComponent productId={productId}/>
             </Suspense>
             

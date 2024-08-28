@@ -20,7 +20,7 @@ export default function ({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Nav/>
+        {/* <Nav/> */}
         <ProductsNav/>
         {children}
       </body>

@@ -1,4 +1,4 @@
-import '@/app/Products/Cart/Cart.css'
+import '@/src/app/[locale]/Products/Cart/Cart.css'
 export default function Cart(){
     return(
         <section className="cart">

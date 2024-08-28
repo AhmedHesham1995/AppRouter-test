@@ -1,4 +1,4 @@
-import '@/app/Products/Categories/categories.css'
+import '@/src/app/[locale]/Products/Categories/categories.css'
 export default function Categories(){
     return(
         <section className="categories">

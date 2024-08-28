@@ -1,4 +1,4 @@
-import "@/app/About/About.css"
+import "@/src/app/[locale]/About/About.css"
 export default function About(){
     return(
     <section className="about">
