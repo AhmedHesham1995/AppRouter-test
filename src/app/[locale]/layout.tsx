@@ -189,6 +189,7 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import Nav from './components/Nav/Nav';
+import BootstrapProvider from './components/BootstrapProvider';
 
 export default async function LocaleLayout({
   children,
@@ -205,8 +206,14 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={dir}>
+       <head>
+         <link rel="preconnect" href="https://fonts.googleapis.com" />
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+         <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet" />
+       </head>
       <body>
         <NextIntlClientProvider messages={messages}>
+          <BootstrapProvider/>
           <Nav />
           {children}
         </NextIntlClientProvider>

@@ -25,9 +25,9 @@
 // }
 
 
-import '@/src/app/[locale]/Products/ProductDetails.css'
+import '@/src/app/[locale]/components/details/ProductDetails.css'
 import { Suspense } from 'react';
-import DetailsComponent from '../../components/Nav/details/DetailsComponent';
+import DetailsComponent from '@/src/app/[locale]/components/details/DetailsComponent';
 export default async function ProductDetails(params:any){
     // console.log(params.params.productId);
     let productId=params.params.productId

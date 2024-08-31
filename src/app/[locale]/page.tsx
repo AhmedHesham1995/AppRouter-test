@@ -81,7 +81,7 @@
 
 
 import {useTranslations} from 'next-intl';
- 
+import '@/src/app/globals.css'
 export default function HomePage() {
   const t = useTranslations('HomePage');
   return<>
